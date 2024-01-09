@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25FF86DA2B4CE57E000420B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86D92B4CE57E000420B8 /* AppDelegate.swift */; };
+		25FF86DC2B4CE57E000420B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86DB2B4CE57E000420B8 /* SceneDelegate.swift */; };
+		25FF86DE2B4CE57E000420B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86DD2B4CE57E000420B8 /* ViewController.swift */; };
+		25FF86E12B4CE57E000420B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FF86DF2B4CE57E000420B8 /* Main.storyboard */; };
+		25FF86E42B4CE57E000420B8 /* CompressDecompress.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86E22B4CE57E000420B8 /* CompressDecompress.xcdatamodeld */; };
+		25FF86E62B4CE57F000420B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FF86E52B4CE57F000420B8 /* Assets.xcassets */; };
+		25FF86E92B4CE57F000420B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FF86E72B4CE57F000420B8 /* LaunchScreen.storyboard */; };
+		25FF86F42B4CE57F000420B8 /* CompressDecompressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86F32B4CE57F000420B8 /* CompressDecompressTests.swift */; };
+		25FF86FE2B4CE57F000420B8 /* CompressDecompressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86FD2B4CE57F000420B8 /* CompressDecompressUITests.swift */; };
+		25FF87002B4CE57F000420B8 /* CompressDecompressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF86FF2B4CE57F000420B8 /* CompressDecompressUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25FF86F02B4CE57F000420B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FF86CE2B4CE57D000420B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FF86D52B4CE57E000420B8;
+			remoteInfo = CompressDecompress;
+		};
+		25FF86FA2B4CE57F000420B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FF86CE2B4CE57D000420B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FF86D52B4CE57E000420B8;
+			remoteInfo = CompressDecompress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25FF86D62B4CE57E000420B8 /* CompressDecompress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompressDecompress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FF86D92B4CE57E000420B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25FF86DB2B4CE57E000420B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25FF86DD2B4CE57E000420B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25FF86E02B4CE57E000420B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25FF86E32B4CE57E000420B8 /* CompressDecompress.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CompressDecompress.xcdatamodel; sourceTree = "<group>"; };
+		25FF86E52B4CE57F000420B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25FF86E82B4CE57F000420B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25FF86EA2B4CE57F000420B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FF86EF2B4CE57F000420B8 /* CompressDecompressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompressDecompressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FF86F32B4CE57F000420B8 /* CompressDecompressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressDecompressTests.swift; sourceTree = "<group>"; };
+		25FF86F92B4CE57F000420B8 /* CompressDecompressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompressDecompressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FF86FD2B4CE57F000420B8 /* CompressDecompressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressDecompressUITests.swift; sourceTree = "<group>"; };
+		25FF86FF2B4CE57F000420B8 /* CompressDecompressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressDecompressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FF86D32B4CE57E000420B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FF86EC2B4CE57F000420B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FF86F62B4CE57F000420B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25FF86CD2B4CE57D000420B8 = {
+			isa = PBXGroup;
+			children = (
+				25FF86D82B4CE57E000420B8 /* CompressDecompress */,
+				25FF86F22B4CE57F000420B8 /* CompressDecompressTests */,
+				25FF86FC2B4CE57F000420B8 /* CompressDecompressUITests */,
+				25FF86D72B4CE57E000420B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25FF86D72B4CE57E000420B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25FF86D62B4CE57E000420B8 /* CompressDecompress.app */,
+				25FF86EF2B4CE57F000420B8 /* CompressDecompressTests.xctest */,
+				25FF86F92B4CE57F000420B8 /* CompressDecompressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FF86D82B4CE57E000420B8 /* CompressDecompress */ = {
+			isa = PBXGroup;
+			children = (
+				25FF86D92B4CE57E000420B8 /* AppDelegate.swift */,
+				25FF86DB2B4CE57E000420B8 /* SceneDelegate.swift */,
+				25FF86DD2B4CE57E000420B8 /* ViewController.swift */,
+				25FF86DF2B4CE57E000420B8 /* Main.storyboard */,
+				25FF86E52B4CE57F000420B8 /* Assets.xcassets */,
+				25FF86E72B4CE57F000420B8 /* LaunchScreen.storyboard */,
+				25FF86EA2B4CE57F000420B8 /* Info.plist */,
+				25FF86E22B4CE57E000420B8 /* CompressDecompress.xcdatamodeld */,
+			);
+			path = CompressDecompress;
+			sourceTree = "<group>";
+		};
+		25FF86F22B4CE57F000420B8 /* CompressDecompressTests */ = {
+			isa = PBXGroup;
+			children = (
+				25FF86F32B4CE57F000420B8 /* CompressDecompressTests.swift */,
+			);
+			path = CompressDecompressTests;
+			sourceTree = "<group>";
+		};
+		25FF86FC2B4CE57F000420B8 /* CompressDecompressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25FF86FD2B4CE57F000420B8 /* CompressDecompressUITests.swift */,
+				25FF86FF2B4CE57F000420B8 /* CompressDecompressUITestsLaunchTests.swift */,
+			);
+			path = CompressDecompressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25FF86D52B4CE57E000420B8 /* CompressDecompress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FF87032B4CE57F000420B8 /* Build configuration list for PBXNativeTarget "CompressDecompress" */;
+			buildPhases = (
+				25FF86D22B4CE57E000420B8 /* Sources */,
+				25FF86D32B4CE57E000420B8 /* Frameworks */,
+				25FF86D42B4CE57E000420B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompressDecompress;
+			productName = CompressDecompress;
+			productReference = 25FF86D62B4CE57E000420B8 /* CompressDecompress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25FF86EE2B4CE57F000420B8 /* CompressDecompressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FF87062B4CE57F000420B8 /* Build configuration list for PBXNativeTarget "CompressDecompressTests" */;
+			buildPhases = (
+				25FF86EB2B4CE57F000420B8 /* Sources */,
+				25FF86EC2B4CE57F000420B8 /* Frameworks */,
+				25FF86ED2B4CE57F000420B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FF86F12B4CE57F000420B8 /* PBXTargetDependency */,
+			);
+			name = CompressDecompressTests;
+			productName = CompressDecompressTests;
+			productReference = 25FF86EF2B4CE57F000420B8 /* CompressDecompressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25FF86F82B4CE57F000420B8 /* CompressDecompressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FF87092B4CE57F000420B8 /* Build configuration list for PBXNativeTarget "CompressDecompressUITests" */;
+			buildPhases = (
+				25FF86F52B4CE57F000420B8 /* Sources */,
+				25FF86F62B4CE57F000420B8 /* Frameworks */,
+				25FF86F72B4CE57F000420B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FF86FB2B4CE57F000420B8 /* PBXTargetDependency */,
+			);
+			name = CompressDecompressUITests;
+			productName = CompressDecompressUITests;
+			productReference = 25FF86F92B4CE57F000420B8 /* CompressDecompressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25FF86CE2B4CE57D000420B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					25FF86D52B4CE57E000420B8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					25FF86EE2B4CE57F000420B8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 25FF86D52B4CE57E000420B8;
+					};
+					25FF86F82B4CE57F000420B8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 25FF86D52B4CE57E000420B8;
+					};
+				};
+			};
+			buildConfigurationList = 25FF86D12B4CE57D000420B8 /* Build configuration list for PBXProject "CompressDecompress" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25FF86CD2B4CE57D000420B8;
+			productRefGroup = 25FF86D72B4CE57E000420B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25FF86D52B4CE57E000420B8 /* CompressDecompress */,
+				25FF86EE2B4CE57F000420B8 /* CompressDecompressTests */,
+				25FF86F82B4CE57F000420B8 /* CompressDecompressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25FF86D42B4CE57E000420B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FF86E92B4CE57F000420B8 /* LaunchScreen.storyboard in Resources */,
+				25FF86E62B4CE57F000420B8 /* Assets.xcassets in Resources */,
+				25FF86E12B4CE57E000420B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FF86ED2B4CE57F000420B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FF86F72B4CE57F000420B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FF86D22B4CE57E000420B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FF86E42B4CE57E000420B8 /* CompressDecompress.xcdatamodeld in Sources */,
+				25FF86DE2B4CE57E000420B8 /* ViewController.swift in Sources */,
+				25FF86DA2B4CE57E000420B8 /* AppDelegate.swift in Sources */,
+				25FF86DC2B4CE57E000420B8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FF86EB2B4CE57F000420B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FF86F42B4CE57F000420B8 /* CompressDecompressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FF86F52B4CE57F000420B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FF86FE2B4CE57F000420B8 /* CompressDecompressUITests.swift in Sources */,
+				25FF87002B4CE57F000420B8 /* CompressDecompressUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25FF86F12B4CE57F000420B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FF86D52B4CE57E000420B8 /* CompressDecompress */;
+			targetProxy = 25FF86F02B4CE57F000420B8 /* PBXContainerItemProxy */;
+		};
+		25FF86FB2B4CE57F000420B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FF86D52B4CE57E000420B8 /* CompressDecompress */;
+			targetProxy = 25FF86FA2B4CE57F000420B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25FF86DF2B4CE57E000420B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FF86E02B4CE57E000420B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25FF86E72B4CE57F000420B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FF86E82B4CE57F000420B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25FF87012B4CE57F000420B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25FF87022B4CE57F000420B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25FF87042B4CE57F000420B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CompressDecompress/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.CompressDecompress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25FF87052B4CE57F000420B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CompressDecompress/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.CompressDecompress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25FF87072B4CE57F000420B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.CompressDecompressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompressDecompress.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompressDecompress";
+			};
+			name = Debug;
+		};
+		25FF87082B4CE57F000420B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.CompressDecompressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompressDecompress.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompressDecompress";
+			};
+			name = Release;
+		};
+		25FF870A2B4CE57F000420B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.CompressDecompressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CompressDecompress;
+			};
+			name = Debug;
+		};
+		25FF870B2B4CE57F000420B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.CompressDecompressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CompressDecompress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FF86D12B4CE57D000420B8 /* Build configuration list for PBXProject "CompressDecompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FF87012B4CE57F000420B8 /* Debug */,
+				25FF87022B4CE57F000420B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FF87032B4CE57F000420B8 /* Build configuration list for PBXNativeTarget "CompressDecompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FF87042B4CE57F000420B8 /* Debug */,
+				25FF87052B4CE57F000420B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FF87062B4CE57F000420B8 /* Build configuration list for PBXNativeTarget "CompressDecompressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FF87072B4CE57F000420B8 /* Debug */,
+				25FF87082B4CE57F000420B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FF87092B4CE57F000420B8 /* Build configuration list for PBXNativeTarget "CompressDecompressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FF870A2B4CE57F000420B8 /* Debug */,
+				25FF870B2B4CE57F000420B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25FF86E22B4CE57E000420B8 /* CompressDecompress.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25FF86E32B4CE57E000420B8 /* CompressDecompress.xcdatamodel */,
+			);
+			currentVersion = 25FF86E32B4CE57E000420B8 /* CompressDecompress.xcdatamodel */;
+			path = CompressDecompress.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25FF86CE2B4CE57D000420B8 /* Project object */;
+}
